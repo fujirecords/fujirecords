@@ -63,7 +63,18 @@
         background-color: #000;
         line-height: 2em;
       }
+
+      amp-sidebar p {
+        padding-left: 40px;
+      }
+      amp-sidebar p, amp-sidebar a {
+        color: #000;
+      }
+      amp-sidebar ul {
+        list-style: none;
+      }
     </style>
+
     <!-- AMP Analytics -->
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
@@ -79,23 +90,8 @@
       <!-- Google Tag Manager -->
       <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-5Q53MHB" data-credentials="include"></amp-analytics>
 
-      <!-- Sidebar -->
-      <style>
-      amp-sidebar p {
-        padding-inline-start: 40px;
-      }
-      amp-sidebar ul {
-        list-style: none;
-      }
-      amp-sidebar a {
-        color: #fff;
-      }
-      .i-amphtml-story-sidebar {
-          background-color: #000;
-      }
-      </style>
-
-      <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+      <!--　Sidebar -->
+      <amp-sidebar id="sidebar1" layout="nodisplay">
         <p>Menu</p>
         <ul>
           <li><a href="https://www.facebook.com/fujirecords/" target="_blank">Facebook</a></li>
