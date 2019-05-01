@@ -18,7 +18,6 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
-    <!--<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>-->
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
     <style amp-custom>
       amp-story {
@@ -79,6 +78,31 @@
       <!-- Google Tag Manager -->
       <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-5Q53MHB" data-credentials="include"></amp-analytics>
 
+      <!-- Sidebar -->
+      <style>
+      amp-sidebar p {
+        padding-inline-start: 40px;
+      }
+      amp-sidebar ul {
+        list-style: none;
+      }
+      amp-sidebar a {
+        color: #fff;
+      }
+      .i-amphtml-story-sidebar {
+          background-color: #000;
+      }
+      </style>
+
+      <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+        <p>Menu</p>
+        <ul>
+          <li><a href="https://www.facebook.com/fujirecords/" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/fujirecords" target="_blank">Twitter</a></li>
+          <li><a href="https://www.behance.net/fujirecords" target="_blank">Behance</a></li>
+        </ul>
+      </amp-sidebar>
+
       <amp-story-page id="cover">
         <amp-story-grid-layer template="fill">
           <amp-img src="assets/cover.jpg"
@@ -89,7 +113,6 @@
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
           <h1>Welcome to<br>FUJI Records</h1>
-          <!--<p>By AMP Tutorials</p>-->
 
           <!-- ServiceWorker -->
           <amp-install-serviceworker
