@@ -98,6 +98,9 @@
           <li><a href="https://twitter.com/fujirecords" target="_blank">Twitter</a></li>
           <li><a href="https://www.behance.net/fujirecords" target="_blank">Behance</a></li>
         </ul>
+        <ul>
+          <li><a href="mailto:fujirecords@gmail.com">Contact</a></li>
+        </ul>
       </amp-sidebar>
 
       <amp-story-page id="cover">
