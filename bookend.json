@@ -20,13 +20,9 @@
       "url": "https://www.facebook.com/fujirecords/"
     },
     {
-      "type": "cta-link",
-      "links": [
-        {
-          "text": "Learn more",
-          "url": "https://www.behance.net/fujirecords"
-        }
-      ]
-    }
+      "type": "heading",
+      "text": "Another Job"
+    },
+    {"type": "small","title": "FUJI_Lab","url": "https://twitter.com/fuji_lab","image": "./images/icon_fuji_lab.jpg?auto=compress,format&fit=crop&w=650&h=450&lossless=0"}
   ]
 }
