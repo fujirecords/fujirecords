@@ -152,7 +152,7 @@
             </p>
         </amp-story-grid-layer>
       </amp-story-page>
-px
+
       <amp-story-page id="page4">
         <amp-story-grid-layer template="fill">
           <amp-img src="assets/04.jpg"
