@@ -36,7 +36,7 @@
       }
       p {
         font-weight: normal;
-        font-size: 1.3em;
+        font-size: 17px;
         line-height: 1.5em;
         color: #fff;
       }
@@ -132,31 +132,9 @@
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third"></h1>
+            <h1 grid-area="upper-third">About</h1>
             <p grid-area="lower-third">
-              Noriaki Mori Large Ensemble<br>
-              Live at Akihabara TokyoTUC<br>
-              2018.4.29
-            </p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-
-      <amp-story-page id="page2">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/02.jpg"
-              width="1200" height="440"
-              layout="responsive"
-              object-position="75% 50%">
-          </amp-img>
-        </amp-story-grid-layer>
-          <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third"></h1>
-            <p grid-area="lower-third">
-              Tetsuya Tatsumi Special Tentet<br>
-              Holiday Afternoon Jazz Live #12<br>
-              Bob Florence Decennial
-              <br>Live at Akihabara TokyoTUC
-              <br>2018.4.30
+              独自のルートで新たな音楽の輸入を行うほか、都内を中心としたライヴのブッキング、フォトレポートの作成など、ビッグバンドに関する全てのサポートを行っています。
             </p>
         </amp-story-grid-layer>
       </amp-story-page>
@@ -169,15 +147,12 @@
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third"></h1>
+            <h1 grid-area="upper-third">Photographer</h1>
             <p grid-area="lower-third">
-              野口久和 THE BIG BAND with “BREEZE”<br>
-              Live at Akihabara TokyoTUC<br>
-              2018.5.3<br>
             </p>
         </amp-story-grid-layer>
       </amp-story-page>
-
+px
       <amp-story-page id="page4">
         <amp-story-grid-layer template="fill">
           <amp-img src="assets/04.jpg"
@@ -186,28 +161,8 @@
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third"></h1>
+            <h1 grid-area="upper-third">Writing</h1>
             <p grid-area="lower-third">
-              Sara McDonald with Keio Light Music Society<br>
-              Live at Space Do<br>
-              2018.10.29
-            </p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-
-      <amp-story-page id="page5">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/05.jpg"
-              width="1200" height="440"
-              layout="responsive">
-          </amp-img>
-        </amp-story-grid-layer>
-          <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third"></h1>
-            <p grid-area="lower-third">
-              山木幸三郎を送る会<br>
-              Live at Space Do<br>
-              2019.1.26
             </p>
         </amp-story-grid-layer>
       </amp-story-page>
@@ -221,30 +176,9 @@
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third"></h1>
+            <h1 grid-area="upper-third">Booking</h1>
             <p grid-area="lower-third">
-              Noriaki Mori Large Ensemble<br>
-              feat. ZINKandSILENTLISTEN<br>
-              Live at Koen-dori Classics<br>
-              2019.2.11</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-
-      <amp-story-page id="page7">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/07.jpg"
-              width="1200" height="440"
-              layout="responsive"
-              object-position="75% 50%">
-          </amp-img>
-        </amp-story-grid-layer>
-          <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third"></h1>
-            <p grid-area="lower-third">
-              Noriaki Mori Large Ensemble<br>
-              feat. ZINKandSILENTLISTEN<br>
-              Live at Koen-dori Classics<br>
-              2019.2.11</p>
+            </p>
         </amp-story-grid-layer>
       </amp-story-page>
 
