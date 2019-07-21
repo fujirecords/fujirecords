@@ -108,7 +108,7 @@
           <amp-img src="assets/cover.jpg"
             width="1200" height="440"
             layout="responsive"
-            object-position="40% 50%">
+            object-position="35% 50%">
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
@@ -128,7 +128,7 @@
           <amp-img src="assets/01.jpg"
               width="1200" height="440"
               layout="responsive"
-              object-position="75% 50%">
+              object-position="75% 0%">
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
@@ -172,7 +172,7 @@
           <amp-img src="assets/06.jpg"
               width="1200" height="440"
               layout="responsive"
-              object-position="75% 50%">
+              object-position="35% 50%">
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
