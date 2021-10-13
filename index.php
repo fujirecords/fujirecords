@@ -135,7 +135,6 @@
           <amp-story-grid-layer template="thirds">
             <h1 grid-area="upper-third">About</h1>
             <p grid-area="lower-third">
-              独自のルートで新たな音楽の輸入を行うほか、都内を中心としたライヴのブッキング、フォトレポートの作成など、ビッグバンドに関する全てのサポートを行っています。
             </p>
         </amp-story-grid-layer>
       </amp-story-page>
